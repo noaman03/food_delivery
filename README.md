@@ -36,8 +36,3 @@ flutter pub get
 flutter run
 ```
 
-## Notes before GitHub upload
-
-1. Update app name (`fooood`) if needed.
-2. Replace fake payment datasource with real gateway integration.
-3. Connect food/cart/orders to backend APIs.
