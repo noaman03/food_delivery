@@ -12,7 +12,8 @@ class CartController extends GetxController {
 
   List<CartItem> get items => _itemsById.values.toList();
   bool get isEmpty => _itemsById.isEmpty;
-  int get totalItems => _itemsById.values.fold(0, (sum, item) => sum + item.quantity);
+  int get totalItems =>
+      _itemsById.values.fold(0, (sum, item) => sum + item.quantity);
   double get subtotal => _calculateCartTotalUseCase(items);
 
   void addItem(FoodItem food) {
@@ -49,4 +50,3 @@ class CartController extends GetxController {
     _itemsById.refresh();
   }
 }
-

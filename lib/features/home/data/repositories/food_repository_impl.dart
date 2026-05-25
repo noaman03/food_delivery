@@ -10,4 +10,3 @@ class FoodRepositoryImpl implements FoodRepository {
   @override
   List<FoodItem> getFoodItems() => _localDataSource.getFoodItems();
 }
-

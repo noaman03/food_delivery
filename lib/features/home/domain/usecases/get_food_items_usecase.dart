@@ -8,4 +8,3 @@ class GetFoodItemsUseCase {
 
   List<FoodItem> call() => _repository.getFoodItems();
 }
-

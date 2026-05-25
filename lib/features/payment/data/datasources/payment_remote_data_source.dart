@@ -16,4 +16,3 @@ class PaymentRemoteDataSource {
     return '$methodLabel payment approved. TXN-$code';
   }
 }
-

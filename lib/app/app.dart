@@ -15,10 +15,9 @@ class FoodDeliveryApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Food Delivery',
       theme: AppTheme.lightTheme,
-      initialRoute: AppRoutes.dashboard,
+      initialRoute: AppRoutes.splash,
       initialBinding: InitialBinding(),
       getPages: AppPages.routes,
     );
   }
 }
-

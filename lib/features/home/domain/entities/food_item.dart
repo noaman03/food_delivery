@@ -7,6 +7,9 @@ class FoodItem {
     required this.category,
     required this.imageAsset,
     required this.rating,
+    required this.restaurant,
+    required this.deliveryTime,
+    this.offer,
   });
 
   final String id;
@@ -16,4 +19,7 @@ class FoodItem {
   final String category;
   final String imageAsset;
   final double rating;
+  final String restaurant;
+  final String deliveryTime;
+  final String? offer;
 }

@@ -26,7 +26,8 @@ class MapPage extends GetView<DeliveryMapController> {
                   ),
                   children: <Widget>[
                     TileLayer(
-                      urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                      urlTemplate:
+                          'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                       userAgentPackageName: 'com.fooood.app',
                     ),
                     MarkerLayer(
@@ -43,7 +44,8 @@ class MapPage extends GetView<DeliveryMapController> {
                         ),
                         if (controller.selectedPoint != null)
                           Marker(
-                            point: controller.selectedPoint ?? const LatLng(0, 0),
+                            point:
+                                controller.selectedPoint ?? const LatLng(0, 0),
                             width: 40,
                             height: 40,
                             child: const Icon(
@@ -81,7 +83,8 @@ class MapPage extends GetView<DeliveryMapController> {
                   children: <Widget>[
                     const Text('Distance'),
                     const Spacer(),
-                    Text('${controller.deliveryDistanceKm.value.toStringAsFixed(1)} km'),
+                    Text(
+                        '${controller.deliveryDistanceKm.value.toStringAsFixed(1)} km'),
                   ],
                 ),
                 const SizedBox(height: 4),
@@ -89,7 +92,8 @@ class MapPage extends GetView<DeliveryMapController> {
                   children: <Widget>[
                     const Text('Delivery Fee'),
                     const Spacer(),
-                    Text('EGP ${controller.deliveryFee.value.toStringAsFixed(2)}'),
+                    Text(
+                        'EGP ${controller.deliveryFee.value.toStringAsFixed(2)}'),
                   ],
                 ),
               ],
@@ -100,4 +104,3 @@ class MapPage extends GetView<DeliveryMapController> {
     );
   }
 }
-

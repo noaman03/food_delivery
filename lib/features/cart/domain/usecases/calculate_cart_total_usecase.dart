@@ -5,4 +5,3 @@ class CalculateCartTotalUseCase {
     return items.fold<double>(0, (sum, item) => sum + item.totalPrice);
   }
 }
-

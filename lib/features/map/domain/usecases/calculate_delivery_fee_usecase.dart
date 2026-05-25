@@ -38,4 +38,3 @@ class CalculateDeliveryFeeUseCase {
 
   double _toRadians(double degree) => degree * (math.pi / 180);
 }
-

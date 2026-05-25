@@ -8,12 +8,14 @@ class DeliveryMapController extends GetxController {
   DeliveryMapController(this._calculateDeliveryFeeUseCase);
 
   final CalculateDeliveryFeeUseCase _calculateDeliveryFeeUseCase;
-  final restaurant = const DeliveryLocation(latitude: 30.0444, longitude: 31.2357);
+  final restaurant =
+      const DeliveryLocation(latitude: 30.0444, longitude: 31.2357);
   final selectedLocation = Rxn<DeliveryLocation>();
   final deliveryFee = 0.0.obs;
   final deliveryDistanceKm = 0.0.obs;
 
-  LatLng get restaurantPoint => LatLng(restaurant.latitude, restaurant.longitude);
+  LatLng get restaurantPoint =>
+      LatLng(restaurant.latitude, restaurant.longitude);
 
   LatLng? get selectedPoint {
     final value = selectedLocation.value;
@@ -38,4 +40,3 @@ class DeliveryMapController extends GetxController {
     );
   }
 }
-

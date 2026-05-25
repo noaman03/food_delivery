@@ -71,4 +71,3 @@ class InitialBinding extends Bindings {
     Get.lazyPut<DashboardController>(() => DashboardController(), fenix: true);
   }
 }
-

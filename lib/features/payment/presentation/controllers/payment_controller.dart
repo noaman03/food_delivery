@@ -20,4 +20,3 @@ class PaymentController extends GetxController {
     isLoading.value = false;
   }
 }
-

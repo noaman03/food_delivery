@@ -10,6 +10,7 @@ class HomeController extends GetxController {
 
   final foods = <FoodItem>[].obs;
   final selectedCategory = 'All'.obs;
+  final searchQuery = ''.obs;
 
   List<String> get categories {
     final values = foods.map((item) => item.category).toSet().toList()..sort();
@@ -18,10 +19,15 @@ class HomeController extends GetxController {
 
   List<FoodItem> get visibleFoods {
     final category = selectedCategory.value;
-    if (category == 'All') {
-      return foods;
-    }
-    return foods.where((item) => item.category == category).toList();
+    final query = searchQuery.value.trim().toLowerCase();
+    return foods.where((item) {
+      final matchesCategory = category == 'All' || item.category == category;
+      final matchesQuery = query.isEmpty ||
+          item.name.toLowerCase().contains(query) ||
+          item.restaurant.toLowerCase().contains(query) ||
+          item.category.toLowerCase().contains(query);
+      return matchesCategory && matchesQuery;
+    }).toList();
   }
 
   @override
@@ -33,5 +39,8 @@ class HomeController extends GetxController {
   void setCategory(String category) {
     selectedCategory.value = category;
   }
-}
 
+  void setSearchQuery(String value) {
+    searchQuery.value = value;
+  }
+}

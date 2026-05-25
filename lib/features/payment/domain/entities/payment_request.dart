@@ -15,4 +15,3 @@ class PaymentRequest {
 
   double get total => subtotal + deliveryFee;
 }
-

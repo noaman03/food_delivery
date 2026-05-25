@@ -6,6 +6,6 @@ class ProcessPaymentUseCase {
 
   final PaymentRepository _repository;
 
-  Future<String> call(PaymentRequest request) => _repository.processPayment(request);
+  Future<String> call(PaymentRequest request) =>
+      _repository.processPayment(request);
 }
-

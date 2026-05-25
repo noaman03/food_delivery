@@ -10,13 +10,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:fooood/app/app.dart';
 
 void main() {
-  testWidgets('App shows main dashboard shell', (WidgetTester tester) async {
+  testWidgets('App shows onboarding before dashboard',
+      (WidgetTester tester) async {
     await tester.pumpWidget(const FoodDeliveryApp());
+    await tester.pump(const Duration(milliseconds: 1200));
     await tester.pumpAndSettle();
 
-    expect(find.text('Food Delivery'), findsOneWidget);
-    expect(find.text('Home'), findsOneWidget);
-    expect(find.text('Map'), findsOneWidget);
-    expect(find.text('Profile'), findsOneWidget);
+    expect(find.text('Your favorite restaurants'), findsOneWidget);
+    expect(find.text('Skip'), findsOneWidget);
   });
 }
