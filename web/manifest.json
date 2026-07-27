@@ -1,11 +1,11 @@
 {
-    "name": "fooood",
-    "short_name": "fooood",
+    "name": "Food Delivery App",
+    "short_name": "Food Delivery",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Flutter food-delivery app with cart, checkout, and map-based delivery fees.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

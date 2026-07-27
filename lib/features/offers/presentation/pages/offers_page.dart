@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:fooood/features/cart/presentation/controllers/cart_controller.dart';
-import 'package:fooood/features/home/domain/entities/food_item.dart';
-import 'package:fooood/features/home/presentation/controllers/home_controller.dart';
+import 'package:food_delivery_app/features/cart/presentation/controllers/cart_controller.dart';
+import 'package:food_delivery_app/features/home/domain/entities/food_item.dart';
+import 'package:food_delivery_app/features/home/presentation/controllers/home_controller.dart';
 
 class OffersPage extends GetView<HomeController> {
   const OffersPage({super.key});

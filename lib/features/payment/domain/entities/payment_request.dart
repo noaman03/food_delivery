@@ -1,4 +1,4 @@
-import 'package:fooood/features/payment/domain/entities/payment_method.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_method.dart';
 
 class PaymentRequest {
   const PaymentRequest({

@@ -1,4 +1,4 @@
-import 'package:fooood/features/cart/domain/entities/cart_item.dart';
+import 'package:food_delivery_app/features/cart/domain/entities/cart_item.dart';
 
 class CalculateCartTotalUseCase {
   double call(Iterable<CartItem> items) {

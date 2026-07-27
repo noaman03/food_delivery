@@ -22,7 +22,7 @@ class AppTheme {
           const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         color: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:fooood/app/routes/app_routes.dart';
-import 'package:fooood/features/cart/domain/entities/cart_item.dart';
-import 'package:fooood/features/cart/presentation/controllers/cart_controller.dart';
+import 'package:food_delivery_app/app/routes/app_routes.dart';
+import 'package:food_delivery_app/features/cart/domain/entities/cart_item.dart';
+import 'package:food_delivery_app/features/cart/presentation/controllers/cart_controller.dart';
 
 class CartPage extends GetView<CartController> {
   const CartPage({super.key});

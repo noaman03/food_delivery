@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:fooood/features/cart/presentation/controllers/cart_controller.dart';
-import 'package:fooood/features/map/presentation/controllers/delivery_map_controller.dart';
-import 'package:fooood/features/payment/domain/entities/payment_method.dart';
-import 'package:fooood/features/payment/domain/entities/payment_request.dart';
-import 'package:fooood/features/payment/presentation/controllers/payment_controller.dart';
+import 'package:food_delivery_app/features/cart/presentation/controllers/cart_controller.dart';
+import 'package:food_delivery_app/features/map/presentation/controllers/delivery_map_controller.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_method.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_request.dart';
+import 'package:food_delivery_app/features/payment/presentation/controllers/payment_controller.dart';
 
 class PaymentPage extends GetView<PaymentController> {
   const PaymentPage({super.key});

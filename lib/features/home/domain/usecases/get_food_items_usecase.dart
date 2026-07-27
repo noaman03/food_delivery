@@ -1,5 +1,5 @@
-import 'package:fooood/features/home/domain/entities/food_item.dart';
-import 'package:fooood/features/home/domain/repositories/food_repository.dart';
+import 'package:food_delivery_app/features/home/domain/entities/food_item.dart';
+import 'package:food_delivery_app/features/home/domain/repositories/food_repository.dart';
 
 class GetFoodItemsUseCase {
   GetFoodItemsUseCase(this._repository);

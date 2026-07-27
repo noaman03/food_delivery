@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:fooood/app/routes/app_routes.dart';
+import 'package:food_delivery_app/app/routes/app_routes.dart';
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({super.key});

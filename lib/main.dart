@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:fooood/app/app.dart';
+import 'package:food_delivery_app/app/app.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

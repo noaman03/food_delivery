@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:fooood/features/home/presentation/pages/home_page.dart';
-import 'package:fooood/features/auth/presentation/pages/signup_page.dart';
-import 'package:fooood/features/auth/presentation/pages/login_page.dart';
+import 'package:food_delivery_app/features/home/presentation/pages/home_page.dart';
+import 'package:food_delivery_app/features/auth/presentation/pages/signup_page.dart';
+import 'package:food_delivery_app/features/auth/presentation/pages/login_page.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});

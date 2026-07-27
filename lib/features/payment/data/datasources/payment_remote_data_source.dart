@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:fooood/features/payment/domain/entities/payment_method.dart';
-import 'package:fooood/features/payment/domain/entities/payment_request.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_method.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_request.dart';
 
 class PaymentRemoteDataSource {
   Future<String> processPayment(PaymentRequest request) async {

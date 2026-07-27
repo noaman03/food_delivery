@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:fooood/features/map/domain/entities/delivery_location.dart';
+import 'package:food_delivery_app/features/map/domain/entities/delivery_location.dart';
 
 class CalculateDeliveryFeeUseCase {
   double call({

@@ -46,8 +46,8 @@ Each feature follows layered architecture:
 
 ```bash
 # Clone & setup
-git clone https://github.com/your-username/food_delivery.git
-cd food_delivery
+git clone https://github.com/noaman03/food-delivery-app.git
+cd food-delivery-app
 
 # Install dependencies
 flutter pub get

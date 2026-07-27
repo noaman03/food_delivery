@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:fooood/app/routes/app_routes.dart';
-import 'package:fooood/features/cart/presentation/controllers/cart_controller.dart';
-import 'package:fooood/features/dashboard/presentation/controllers/dashboard_controller.dart';
-import 'package:fooood/features/home/presentation/pages/home_page.dart';
-import 'package:fooood/features/map/presentation/pages/map_page.dart';
-import 'package:fooood/features/offers/presentation/pages/offers_page.dart';
-import 'package:fooood/features/orders/presentation/pages/orders_page.dart';
-import 'package:fooood/features/profile/presentation/pages/profile_page.dart';
+import 'package:food_delivery_app/app/routes/app_routes.dart';
+import 'package:food_delivery_app/features/cart/presentation/controllers/cart_controller.dart';
+import 'package:food_delivery_app/features/dashboard/presentation/controllers/dashboard_controller.dart';
+import 'package:food_delivery_app/features/home/presentation/pages/home_page.dart';
+import 'package:food_delivery_app/features/map/presentation/pages/map_page.dart';
+import 'package:food_delivery_app/features/offers/presentation/pages/offers_page.dart';
+import 'package:food_delivery_app/features/orders/presentation/pages/orders_page.dart';
+import 'package:food_delivery_app/features/profile/presentation/pages/profile_page.dart';
 
 class DashboardPage extends GetView<DashboardController> {
   const DashboardPage({super.key});

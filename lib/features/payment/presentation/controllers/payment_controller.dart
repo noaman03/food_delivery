@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:fooood/features/payment/domain/entities/payment_method.dart';
-import 'package:fooood/features/payment/domain/entities/payment_request.dart';
-import 'package:fooood/features/payment/domain/usecases/process_payment_usecase.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_method.dart';
+import 'package:food_delivery_app/features/payment/domain/entities/payment_request.dart';
+import 'package:food_delivery_app/features/payment/domain/usecases/process_payment_usecase.dart';
 
 class PaymentController extends GetxController {
   PaymentController(this._processPaymentUseCase);

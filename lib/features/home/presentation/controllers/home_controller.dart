@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-import 'package:fooood/features/home/domain/entities/food_item.dart';
-import 'package:fooood/features/home/domain/usecases/get_food_items_usecase.dart';
+import 'package:food_delivery_app/features/home/domain/entities/food_item.dart';
+import 'package:food_delivery_app/features/home/domain/usecases/get_food_items_usecase.dart';
 
 class HomeController extends GetxController {
   HomeController(this._getFoodItemsUseCase);

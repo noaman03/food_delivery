@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:fooood/features/cart/domain/entities/cart_item.dart';
-import 'package:fooood/features/cart/domain/usecases/calculate_cart_total_usecase.dart';
-import 'package:fooood/features/home/domain/entities/food_item.dart';
+import 'package:food_delivery_app/features/cart/domain/entities/cart_item.dart';
+import 'package:food_delivery_app/features/cart/domain/usecases/calculate_cart_total_usecase.dart';
+import 'package:food_delivery_app/features/home/domain/entities/food_item.dart';
 
 class CartController extends GetxController {
   CartController(this._calculateCartTotalUseCase);

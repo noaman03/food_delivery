@@ -10,8 +10,8 @@ dart --version      # Ensure 3.1.4+
 
 ### 2. Clone & Install
 ```bash
-git clone https://github.com/your-username/food_delivery.git
-cd food_delivery
+git clone https://github.com/noaman03/food-delivery-app.git
+cd food-delivery-app
 flutter pub get
 ```
 

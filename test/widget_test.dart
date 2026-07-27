@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:fooood/app/app.dart';
+import 'package:food_delivery_app/app/app.dart';
 
 void main() {
   testWidgets('App shows onboarding before dashboard',

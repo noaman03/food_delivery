@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'package:latlong2/latlong.dart';
 
-import 'package:fooood/features/map/domain/entities/delivery_location.dart';
-import 'package:fooood/features/map/domain/usecases/calculate_delivery_fee_usecase.dart';
+import 'package:food_delivery_app/features/map/domain/entities/delivery_location.dart';
+import 'package:food_delivery_app/features/map/domain/usecases/calculate_delivery_fee_usecase.dart';
 
 class DeliveryMapController extends GetxController {
   DeliveryMapController(this._calculateDeliveryFeeUseCase);

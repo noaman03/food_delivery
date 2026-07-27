@@ -82,8 +82,8 @@ The home, map, and payment features demonstrate data, domain, and presentation b
 ## Installation and Running
 
 ```bash
-git clone https://github.com/noaman03/food_delivery.git
-cd food_delivery
+git clone https://github.com/noaman03/food-delivery-app.git
+cd food-delivery-app
 flutter pub get
 flutter run
 ```

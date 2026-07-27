@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
 
-import 'package:fooood/app/routes/app_routes.dart';
-import 'package:fooood/features/cart/presentation/pages/cart_page.dart';
-import 'package:fooood/features/dashboard/presentation/pages/dashboard_page.dart';
-import 'package:fooood/features/onboarding/presentation/pages/onboarding_page.dart';
-import 'package:fooood/features/onboarding/presentation/pages/splash_page.dart';
-import 'package:fooood/features/payment/presentation/pages/payment_page.dart';
+import 'package:food_delivery_app/app/routes/app_routes.dart';
+import 'package:food_delivery_app/features/cart/presentation/pages/cart_page.dart';
+import 'package:food_delivery_app/features/dashboard/presentation/pages/dashboard_page.dart';
+import 'package:food_delivery_app/features/onboarding/presentation/pages/onboarding_page.dart';
+import 'package:food_delivery_app/features/onboarding/presentation/pages/splash_page.dart';
+import 'package:food_delivery_app/features/payment/presentation/pages/payment_page.dart';
 
 class AppPages {
   static final routes = <GetPage<dynamic>>[

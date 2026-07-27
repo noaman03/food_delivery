@@ -76,7 +76,7 @@ Before uploading to GitHub, verify all items:
 
 ```bash
 # 1. From local machine, navigate to project
-cd "c:\AMIT flutter\food_delivery"
+cd food-delivery-app
 
 # 2. Verify no compilation errors
 flutter clean
@@ -96,7 +96,7 @@ git commit -m "refactor: migrate to clean architecture with GetX
 - Add comprehensive documentation"
 
 # 4. Add remote & push
-git remote add origin https://github.com/YOUR_USERNAME/food_delivery.git
+git remote add origin https://github.com/noaman03/food-delivery-app.git
 git branch -M main
 git push -u origin main
 
