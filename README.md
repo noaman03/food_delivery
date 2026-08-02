@@ -2,6 +2,10 @@
 
 A Flutter food-delivery interface built with feature-based clean architecture, GetX, a local food catalog, cart and checkout flows, and map-based delivery fees.
 
+[![Download Android demo APK](https://img.shields.io/badge/download-Android%20demo%20APK-2ea44f?logo=android&logoColor=white)](https://github.com/noaman03/food-delivery-app/releases/download/v1.0.0-demo.1/Food-Delivery-v1.0.0-demo.1.apk)
+
+The APK is a debug-signed portfolio prerelease for side-loading and evaluation, not a production or Play Store build.
+
 ## Project Status
 
 This is a portfolio demonstration. Its catalog is local, authentication screens are not connected to a user backend, and transaction processing is simulated. It should not be described as a live ordering or payment service.
@@ -9,19 +13,10 @@ This is a portfolio demonstration. Its catalog is local, authentication screens 
 ## Screenshots
 
 <p align="center">
-  <img width="180" alt="Food delivery splash or onboarding screen" src="https://github.com/user-attachments/assets/242207a7-34c1-46f8-b73a-00a7ac4ad9dc">
-  <img width="180" alt="Food delivery account interface" src="https://github.com/user-attachments/assets/60cbea65-1832-48a4-b0ba-ea2fc00e26bc">
-  <img width="180" alt="Food catalog home interface" src="https://github.com/user-attachments/assets/37996733-1a67-44d3-ab64-af38a62b7a6e">
-  <img width="180" alt="Food category and product cards" src="https://github.com/user-attachments/assets/b62b74dc-deb7-4cde-8320-c53dc97e38a6">
-  <img width="180" alt="Food item and ordering interface" src="https://github.com/user-attachments/assets/50ec7688-f706-4131-9e8d-1fc1ea3efb6b">
-</p>
-
-<p align="center">
-  <img width="180" alt="Shopping cart interface" src="https://github.com/user-attachments/assets/3088cdad-a44d-4881-b992-a85a3ca7dd64">
-  <img width="180" alt="Map-based delivery location interface" src="https://github.com/user-attachments/assets/bce0bee3-3377-416d-87ac-26eac18ec909">
-  <img width="180" alt="Checkout order summary" src="https://github.com/user-attachments/assets/8cfdc125-1404-4a26-9f77-3e4fd397c928">
-  <img width="180" alt="Payment method selection interface" src="https://github.com/user-attachments/assets/f4749808-0685-45eb-a2e2-eb9a85d87d33">
-  <img width="180" alt="Food delivery profile or order interface" src="https://github.com/user-attachments/assets/f8f973c8-9587-4a74-ad08-ed7f9287d605">
+  <img width="180" alt="Food delivery home and offers screen" src="docs/screenshots/food-delivery-home.webp">
+  <img width="180" alt="Food delivery basket and order summary" src="docs/screenshots/food-delivery-basket.webp">
+  <img width="180" alt="Food delivery checkout and payment choices" src="docs/screenshots/food-delivery-checkout.webp">
+  <img width="180" alt="Food delivery active and recent orders" src="docs/screenshots/food-delivery-orders.webp">
 </p>
 
 ## Features
