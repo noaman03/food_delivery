@@ -364,6 +364,7 @@ class _FoodCard extends StatelessWidget {
                       ),
                       const Spacer(),
                       SizedBox(
+                        width: 80,
                         height: 36,
                         child: FilledButton(
                           onPressed: onAdd,
