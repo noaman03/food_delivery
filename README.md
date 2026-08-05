@@ -3,6 +3,7 @@
 A Flutter food-delivery interface built with feature-based clean architecture, GetX, a local food catalog, cart and checkout flows, and map-based delivery fees.
 
 [![Download Android demo APK](https://img.shields.io/badge/download-Android%20demo%20APK-2ea44f?logo=android&logoColor=white)](https://github.com/noaman03/food-delivery-app/releases/download/v1.0.0-demo.1/Food-Delivery-v1.0.0-demo.1.apk)
+[![Watch demo video](https://img.shields.io/badge/watch-demo%20video-e63946?logo=youtube&logoColor=white)](https://github.com/noaman03/food-delivery-app/releases/download/v1.0.0-demo.1/FoodHub_Portfolio_Demo.mp4)
 
 The APK is a debug-signed portfolio prerelease for side-loading and evaluation, not a production or Play Store build.
 
@@ -17,6 +18,12 @@ This is a portfolio demonstration. Its catalog is local, authentication screens 
   <img width="180" alt="Food delivery basket and order summary" src="docs/screenshots/food-delivery-basket.webp">
   <img width="180" alt="Food delivery checkout and payment choices" src="docs/screenshots/food-delivery-checkout.webp">
   <img width="180" alt="Food delivery active and recent orders" src="docs/screenshots/food-delivery-orders.webp">
+</p>
+
+<p align="center">
+  <img width="180" alt="Food delivery restaurant offers and deals" src="docs/screenshots/food-delivery-offers.jpg">
+  <img width="180" alt="Map with tap-to-select delivery location and distance-based fee" src="docs/screenshots/food-delivery-map.jpg">
+  <img width="180" alt="Food delivery profile screen" src="docs/screenshots/food-delivery-profile.jpg">
 </p>
 
 ## Features
